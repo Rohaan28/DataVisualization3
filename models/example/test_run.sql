@@ -1,4 +1,4 @@
-SELECT
+select
     vendor_latitude,
     vendor_longitude,
     vendor_name,
@@ -38,4 +38,4 @@ SELECT
     state,
     electric_lock,
     boardcomputer
-FROM `sonorous-antler-389221.nextbike.Live`
+from `sonorous-antler-389221.nextbike.Live`
