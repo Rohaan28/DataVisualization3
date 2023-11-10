@@ -1,4 +1,7 @@
-select
+
+{{ config(materialized='view') }}
+
+SELECT
     vendor_latitude,
     vendor_longitude,
     vendor_name,
@@ -38,4 +41,4 @@ select
     state,
     electric_lock,
     boardcomputer
-from `sonorous-antler-389221.nextbike.Live`
+FROM `sonorous-antler-389221.nextbike.Live`
